@@ -33,4 +33,6 @@ Console.WriteLine($"Second roll: {roll2}");
 
 Console.WriteLine($"Third roll: {roll3}");
 
+dice.Next();
+
 
