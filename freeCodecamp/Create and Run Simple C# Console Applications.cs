@@ -37,9 +37,92 @@
 
 
 
-int firstValue = 700;
-int secondValue = 600;
+// int firstValue = 700;
+// int secondValue = 600;
 
-int largerValue = Math.Max(firstValue, secondValue);
+// int largerValue = Math.Max(firstValue, secondValue);
 
-Console.WriteLine(largerValue);
+// Console.WriteLine(largerValue);
+
+
+// bool ehMaiorDeIdade = false;
+// bool possuiAutorizacaoDoResponsavel = true;
+
+// if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+// {
+//     Console.WriteLine("Entrada Liberada!");
+// }
+// else
+// {
+//     Console.WriteLine("Entrada Negada!");
+// }
+
+
+// Console.WriteLine("Digite uma letra:");
+// string letra = Console.ReadLine();
+
+
+// if (letra == "a")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else if (letra == "e")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else if (letra == "i")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else if (letra == "o")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else if (letra == "u")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else
+// {
+//     Console.WriteLine("Consoante");
+// }
+
+
+
+// Console.WriteLine("Digite uma letra:");
+// string letra = Console.ReadLine();
+
+// if (letra == "a" ||
+//     letra == "e" ||
+//     letra == "i" ||
+//     letra == "o" ||
+//     letra == "u")
+// {
+//     Console.WriteLine("Vogal"); 
+// }else
+// {
+//     Console.WriteLine("Consoante");
+// }
+
+
+
+Console.WriteLine("Digite uma letra:");
+string letra = Console.ReadLine();
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vogal");
+        break;
+
+    default:
+        Console.WriteLine("Consoante");
+        break;
+
+
+}
+
